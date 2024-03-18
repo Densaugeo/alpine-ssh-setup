@@ -26,7 +26,7 @@ You may be able to find the IP address by checking your router's DHCP client lea
 
 You may wish to remove root access after setting another user up. If so, a script is provided at `/root/remove-root-login.sh`.
 
-## Contents of Image
+## Content of Image
 
 The `overlay-content` folder is used to build the overlay image. A brief explanation of the files within:
 
