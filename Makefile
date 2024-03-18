@@ -1,5 +1,7 @@
 build: overlay-content temporary-root-key
+	mkdir -p overlay-content/root/.ssh
 	cat temporary-root-key.pub > overlay-content/root/.ssh/authorized_keys
+	chmod 600 overlay-content/root/.ssh/authorized_keys
 	
 	cd overlay-content && tar -cvzf ../ssh-setup.apkovl.tar.gz .
 	

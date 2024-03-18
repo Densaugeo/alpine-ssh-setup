@@ -1,3 +1,4 @@
 temporary-root-key
 temporary-root-key.pub
+overlay-content/root/.ssh/authorized_keys
 ssh-setup.apkovl.tar.gz
