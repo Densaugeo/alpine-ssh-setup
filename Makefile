@@ -10,4 +10,4 @@ build: overlay-content temporary-root-key
 	@echo "ssh -i $$(pwd)/temporary-root-key root@IP_ADDRESS"
 
 temporary-root-key:
-	ssh-keygen -t rsa -f temporary-root-key -C '' -N ''
+	ssh-keygen -t rsa -f temporary-root-key -C 'alpine-ssh-setup' -N ''
